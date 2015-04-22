@@ -93,7 +93,7 @@ public class OutilsPersonJUnitTest
         for(IPerson p : persons)
         {
             verify(p, never()).getFirstName();
-            verify(p, never()).getAge(gc);
+            verify(p, never()).getName();
         }
     }
 }
