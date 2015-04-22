@@ -16,6 +16,5 @@ public class NewClass {
     public NewClass()
     {
         IPerson p;
-        p.
     }
 }
